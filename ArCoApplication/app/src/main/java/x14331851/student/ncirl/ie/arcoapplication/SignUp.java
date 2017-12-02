@@ -22,7 +22,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class SignUp extends AppCompatActivity {
 
     EditText inputEmail, inputPass;
-    Button btnSignUp;
+    Button btnSignUp, btnLogin;
     FirebaseAuth fireAuth;
     String myEmail, myPassword;
 
@@ -41,9 +41,19 @@ public class SignUp extends AppCompatActivity {
         inputEmail = findViewById(R.id.emailText);
         inputPass = findViewById(R.id.passwordText);
         btnSignUp = findViewById(R.id.signupBtn);
+        btnLogin = findViewById(R.id.btn_login_link);
 
         myEmail = inputEmail.getText().toString();
         myPassword = inputPass.getText().toString();
+
+        btnLogin.setOnClickListener(new View.OnClickListener(){
+
+            @Override
+            public void onClick(View v) {
+                Intent intentLogin = new Intent(SignUp.this, Login.class);
+                startActivity(intentLogin);
+            }
+        });
 
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override

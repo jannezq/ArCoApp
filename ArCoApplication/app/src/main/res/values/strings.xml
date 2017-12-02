@@ -8,4 +8,9 @@
     <string name="passwordTextView" />
     <string name="emailHint">Enter email address!</string>
     <string name="passwordHint">Enter password</string>
+    <string name="loginHeading">Join the Collection</string>
+    <string name="loginDes">Login now to see the updates!</string>
+    <string name="btn_login">Login Now!</string>
+    <string name="btn_link_signup">Not Registered! Sign Up Here!</string>
+
 </resources>
