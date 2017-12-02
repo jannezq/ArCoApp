@@ -11,11 +11,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity" />
         <activity
-            android:name=".LogoScreenActivity"
-            android:theme="@style/ArCoTheme">
+            android:name=".LogoScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,7 +23,6 @@
         </activity>
         <activity android:name=".SignUp" />
         <activity android:name=".Login" />
-        <activity android:name=".LoadingScreen"></activity>
     </application>
 
 </manifest>

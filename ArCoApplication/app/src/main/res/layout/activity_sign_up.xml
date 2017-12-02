@@ -7,14 +7,14 @@
     tools:context="x14331851.student.ncirl.ie.arcoapplication.SignUp">
 
 
-    <ImageView
+    <!--<ImageView
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        app:srcCompat="@drawable/background"
-        android:scaleType="centerCrop"/>
+        app:srcCompat="@drawable/background1"
+        android:scaleType="centerCrop"/>-->
 
     <ImageView
         android:id="@+id/fontLogo"
