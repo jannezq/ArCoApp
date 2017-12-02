@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "498116651320",
+    "firebase_url": "https://arcoapplication.firebaseio.com",
+    "project_id": "arcoapplication",
+    "storage_bucket": "arcoapplication.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498116651320:android:cebef78625cc73ba",
+        "android_client_info": {
+          "package_name": "x14331851.student.ncirl.ie.arcoapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498116651320-528eno4cm6d968i6r7qi6gg74949rlia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "x14331851.student.ncirl.ie.arcoapplication",
+            "certificate_hash": "d632eb8c15aabe051bb172edce26b5cffaacd53f"
+          }
+        },
+        {
+          "client_id": "498116651320-9ucg29qrbfcanp5c2oi1f3r0ouh4opgh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA9XqxzpNkjnEF-jOEjF0GTSMuNqyjRCQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498116651320-9ucg29qrbfcanp5c2oi1f3r0ouh4opgh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ArCoApplication</string>
+    <string name="SignUpHeading">Join the Collection!</string>
+    <string name="signUpDes">Enter a few details to get started!</string>
+    <string name="btn_signup">Sign Up Now!</string>
+    <string name="btn_link_login">Already registered! Login Here!</string>
+    <string name="emailTextView" />
+    <string name="passwordTextView" />
+    <string name="emailHint">Enter email address!</string>
+    <string name="passwordHint">Enter password</string>
+</resources>
